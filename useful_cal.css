@@ -1,0 +1,39 @@
+.box {
+    float:left;
+    text-align:center;
+    line-height:42px;
+    cursor:pointer;
+    font-size:22px;
+    font-weight:100;
+}
+.week_row {
+    display:block;
+    clear:both;
+}
+.week_row:hover {
+    background-color:#fafafa
+}
+.box:hover {
+    color:white;
+    background-color:blue;
+}
+.day_header {
+    background-color:lightblue;
+}
+.empty {
+    background-color:#ddd;
+}
+.empty:hover {
+    cursor:inherit;
+}
+.weekend {
+    color:black;
+    background-color:#ccc;
+}
+.scheduled {
+    background-color:lightgreen;
+}
+
+#useful_cal{
+   width:100%;
+}
